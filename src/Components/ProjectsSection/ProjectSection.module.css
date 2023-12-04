@@ -1,0 +1,25 @@
+.projectSection{
+  width: 100%;
+  padding-left: 29px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: 63px;
+  align-items: flex-start;
+}
+.title{
+  font-family: var(--fonte-family);
+  font-size:clamp(1rem,2rem,2.25rem) ;
+  font-weight: 800;
+  padding-bottom: 29px;
+}
+@media(min-width: 768px){
+ .projectSection{
+  max-width: 58.125rem;;
+  padding-left: 0;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+  
+ }
+}
